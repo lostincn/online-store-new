@@ -3,7 +3,7 @@ const { ApiError } = require("../error/ApiError");
 
 class BasketController{
     try {
-        console.log(`updating GH repository`)
+        console.log(`testing new branch`)
     } catch (error) {
         next(ApiError.badRequest(error.message))
     }
